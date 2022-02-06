@@ -11,7 +11,7 @@
   --bg-color: #3a677d;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #3a677d;
+  --accent-color: #103041;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -36,6 +36,16 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
+}
+img {
+  border-radius: 50%;
+}
+
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 /* HEADER */
